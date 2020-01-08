@@ -1,6 +1,7 @@
 #general
 your_global_ip:your_local_ip
 203.0.113.0:192.168.1.1
+
 #samba
 user:pass:path
 USER:PASSWORD:/home/sample_folder
