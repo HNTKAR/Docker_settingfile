@@ -1,15 +1,16 @@
 #general
 your_global_ip:203.0.113.1
 your_local_ip:192.168.1.1
-
+your_domain:example.com
 
 #samba
 user:pass:path
 USER:PASSWORD:/home/sample_folder
 
-#certbot
+#lets_encrypt
 mail:FQDN
 mail.example.com:sample.example.com
 
 #vsftp
-
+user:pass:path
+USER:PASSWORD:/home/sample_folder
