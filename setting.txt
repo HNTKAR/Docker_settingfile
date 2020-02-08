@@ -9,8 +9,12 @@ USER:PASSWORD:/home/sample_folder
 
 #lets_encrypt
 mail:FQDN
-mail.example.com:sample.example.com
+mail@example.com:sample.example.com
 
 #vsftp
 user:pass:path
 USER:PASSWORD:/home/sample_folder
+
+#mail
+user:pass
+USER:PASSWORD
