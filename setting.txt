@@ -1,20 +1,40 @@
-#general
-your_global_ip:203.0.113.1
-your_local_ip:192.168.1.1
-your_domain:example.com
+##  ##<- comment out
+##  ==<- service name
+##  --<- setting paraglaph
 
-#samba
-user:pass:path
-USER:PASSWORD:/home/sample_folder
 
-#lets_encrypt
-mail:FQDN
-mail@example.com:sample.example.com
+=====general=====
+##your_global_ip:203.0.113.1
+##your_local_ip:192.168.1.1
+##your_domain:example.com
 
-#vsftp
-user:pass:path
-USER:PASSWORD:/home/sample_folder
 
-#mail
-user:pass
-USER:PASSWORD
+=====samba=====
+
+-----user data-----
+##user:pass:path
+##USER:PASSWORD:/home/sample_folder
+
+
+=====lets_encrypt=====
+
+-----system data-----
+##mail:FQDN
+##mail@example.com:sample.example.com
+
+
+=====vsftp=====
+
+-----user data-----
+##user:pass:path
+##USER:PASSWORD:/home/sample_folder
+
+
+=====mail=====
+
+-----system data-----
+##server-FQDN:mail.example.com
+
+-----user data-----
+##user:pass
+##USER:PASSWORD
